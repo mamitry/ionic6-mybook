@@ -1,0 +1,40 @@
+{
+  "type": "book",
+  "book": "book1",
+  "key": "book1",
+  "titleDisplay": {
+    "deu": "Odyssee"
+  },
+  "children": [
+    {
+      "type": "book",
+      "contentType": "chapters",
+      "index": 0,
+      "hour": "1",
+      "key": "book11",
+      "titleDisplay": {
+        "deu": "Chapter 1"
+      },
+      "subTitle": {
+        "deu": "The first chapter"
+      },
+      "infoText": {
+        "deu": "Homer's epics \"Iliad\" and \"Odyssey\" are both the beginning and the climax of the genre."
+      }
+    },
+    {
+      "type": "book",
+      "contentType": "chapters",
+      "key": "book12",
+      "titleDisplay": {
+        "deu": "Chapter 2"
+      },
+      "subTitle": {
+        "deu": "The second chapters"
+      },
+      "infoText": {
+        "deu": "The two volumes offer the most poignant, beautiful and important scenes from the events of the Trojan War and Odysseus' wanderings."
+      }
+    }
+  ]
+}

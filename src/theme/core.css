@@ -1,0 +1,85 @@
+ion-toolbar {
+  --background: var(--ion-color-primary);
+}
+
+.list-md {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+ion-list {
+  --padding-top: 0px;
+}
+
+.germanText {
+  line-height: 1.3;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.germanTitle {
+  line-height: 1.3;
+  font-weight: bold;
+  font-size: 120%;
+  tab-size: 20;
+  white-space: pre;
+}
+
+.arabicText {
+  line-height: 1.0;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.arabicTitle {
+  line-height: 1.8;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.comment {
+  font-family: Georgia;
+  font-style: italic;
+  color: red;
+}
+
+ion-col {
+  border: 1px blue;
+}
+
+.linkEnabled {
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkDisabled {
+  text-decoration: none;
+  pointer-events: none;
+  color: grey;
+  opacity: 0.5;
+}
+
+.menuTitle {
+  --background: var(--ion-color-primary);
+}
+
+.psalmIntro {
+  margin-left: 10px;
+  min-height: 8px;
+  font-size: 75%;
+  color: hsl(241, 92%, 48%);
+}
+
+.comment {
+  color: blue;
+  font-size: 85%;
+  margin-left: 20px;
+  font-style: italic;
+}

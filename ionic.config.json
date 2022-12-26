@@ -1,0 +1,8 @@
+{
+  "name": "eGoom - Koptische Bücher",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "2eb377cd"
+}

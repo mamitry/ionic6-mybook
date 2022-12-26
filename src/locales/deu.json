@@ -1,0 +1,13 @@
+{
+  "app": { "title": "Title", "subtitle1": "SubTitle", "subtitle2": "Bücher" },
+  "buttons": { "ok": "OK", "cancel": "Abbrechen" },
+  "ui": {
+    "relatedLinks": "Links",
+    "home": "Home",
+    "menu": {
+      "right": {
+        "scrollTochapter": "Scroll to subchapter"
+      }
+    }
+  }
+}

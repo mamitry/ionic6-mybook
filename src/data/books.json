@@ -1,0 +1,24 @@
+{
+  "type": "books",
+  "titleDisplay": {
+    "deu": "Bibliothek"
+  },
+  "children": [
+    {
+      "id": "1",
+      "key": "book1",
+      "type": "book",
+      "disabled": false,
+      "contentType": "book",
+      "titleDisplay": {
+        "deu": "Odyssee"
+      },
+      "subTitle": {
+        "deu": "Homer"
+      },
+      "infoText": {
+        "deu": "The authoritative translation! Odysseus - divine sufferer, cunning conqueror of Troy, adventurer and faithful husband, at the same time friend of beautiful women - is immortalized by Homer's poetry."
+      }
+    }
+  ]
+}
