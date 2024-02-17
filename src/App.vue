@@ -23,10 +23,6 @@ const scrollStore = useScrollStore();
 const bookStore = useBookStore();
 const { bookHasChildren } = storeToRefs(bookStore);
 
-// i18n
-import { useI18n } from "vue-i18n";
-const { locale } = useI18n({ useScope: "global" });
-
 // Logging
 const compName = "[" + getCurrentInstance().type.name + "]";
 
@@ -43,10 +39,6 @@ hooks(compName);
  */
 onBeforeMount(() => {
   appLog(DebugLevel.HOOKS, compName, "Before Mount");
-
-  // set locale
-  locale.value = "deu";
-  appLog(DebugLevel.INFO, compName, "Setting locale to: " + locale.value);
 
   //**
   scrollStore.$subscribe((mutation) => {

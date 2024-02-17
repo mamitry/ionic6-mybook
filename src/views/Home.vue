@@ -14,7 +14,7 @@ hooks("[Home]");
 </script>
 
 <template>
-  <base-layout :page-title="$t('ui.home')" display-back-link="false">
+  <base-layout page-title="Home" display-back-link="false">
     <varus-books-list :books="books"></varus-books-list>
   </base-layout>
 </template>
